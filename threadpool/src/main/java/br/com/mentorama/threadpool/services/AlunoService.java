@@ -36,9 +36,8 @@ public class AlunoService {
         return CompletableFuture.completedFuture(alunoRepository.save(aluno));
     }
 
-    public CompletableFuture <Aluno> delete(Long id) {
+    public CompletableFuture <Optional<Aluno>> delete(Long id) {
         System.out.println("Service Thread: " + Thread.currentThread().getName());
-
         alunoRepository.deleteById(id);
         return null;
     }

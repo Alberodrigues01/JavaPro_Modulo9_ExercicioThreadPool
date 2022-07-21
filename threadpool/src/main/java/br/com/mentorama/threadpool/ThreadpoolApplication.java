@@ -1,9 +1,5 @@
 package br.com.mentorama.threadpool;
 
-import br.com.mentorama.threadpool.controllers.AlunoController;
-import br.com.mentorama.threadpool.models.Aluno;
-import br.com.mentorama.threadpool.repositories.AlunoRepository;
-import br.com.mentorama.threadpool.services.AlunoService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
